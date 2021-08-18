@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import router from "./demo/router";
+import App from "./demo/App.vue";
+// import plugin from "../dist/index.esm.js";
+import plugin from "vue-scroll-position";
 
-createApp(App).mount('#app')
+createApp(App).use(router).use(plugin).mount("#app");

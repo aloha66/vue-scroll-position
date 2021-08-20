@@ -5,6 +5,5 @@ import path from "path";
 
 execSync("npm publish", {
   stdio: "inherit",
-  //   cwd: path.join("packages", name, "dist"),
-//   cwd: "dist",
+  //   cwd: "dist",
 });

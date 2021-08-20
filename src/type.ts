@@ -3,7 +3,7 @@ export interface Options {
   el: string;
   max: number;
   delay: number | undefined;
-  router: unknown;
+  router?: unknown;
 }
 
 export interface To {

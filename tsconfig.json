@@ -1,4 +1,14 @@
 {
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "demo/**/*.ts",
+    "demo/**/*.d.ts",
+    "demo/**/*.tsx",
+    "demo/**/*.vue"
+  ],
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
@@ -8,7 +18,10 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": ["esnext", "dom"]
-  },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+    "lib": ["esnext", "dom"],
+    "paths": {
+      "vue-scroll-position": ["./src/index.ts"],
+      "vue-scroll-position/*": ["./src/*"]
+    }
+  }
 }

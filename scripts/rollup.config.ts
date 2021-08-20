@@ -3,7 +3,7 @@ import dts from "rollup-plugin-dts";
 import { terser } from "rollup-plugin-terser";
 import { OutputOptions, Plugin, RollupOptions } from "rollup";
 
-const input = "src/plugin/index.ts";
+const input = "src/index.ts";
 
 const output: OutputOptions[] = [
   {

@@ -11,8 +11,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue-demi": "^0.11.3",
-    "vue-scroll-position": "^0.1.4"
+    "vue-demi": "^0.11.3"
   },
   "devDependencies": {
     "@rollup/plugin-json": "^4.1.0",
